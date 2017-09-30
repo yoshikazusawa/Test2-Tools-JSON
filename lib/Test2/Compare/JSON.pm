@@ -6,7 +6,6 @@ use base 'Test2::Compare::Base';
 
 use Carp qw/croak/;
 
-use Test2::Compare qw/compare/;
 use Test2::Util::HashBase qw/inref json/;
 
 sub init {

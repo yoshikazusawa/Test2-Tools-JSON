@@ -7,7 +7,6 @@ our $VERSION = "0.01";
 use Carp ();
 use JSON::MaybeXS qw/JSON/;
 
-use Test2::Compare qw/build/;
 use Test2::Compare::JSON();
 
 %Carp::Internal = (

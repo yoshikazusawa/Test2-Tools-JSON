@@ -4,8 +4,6 @@ use Test2::Tools::JSON;
 use Test2::Util::Table ();
 use Test2::Compare::Custom;
 
-use JSON;
-
 sub table { join "\n" => Test2::Util::Table::table(@_) }
 
 is intercept {
