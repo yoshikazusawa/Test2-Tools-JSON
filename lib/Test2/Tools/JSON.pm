@@ -24,7 +24,7 @@ sub json ($) {
         file  => $caller[1],
         lines => [$caller[2]],
         inref => $_[0],
-        json  => JSON->new,
+        json  => JSON->new->utf8,
     );
 }
 
@@ -34,7 +34,7 @@ sub relaxed_json ($) {
         file  => $caller[1],
         lines => [$caller[2]],
         inref => $_[0],
-        json  => JSON->new->relaxed(1),
+        json  => JSON->new->utf8->relaxed(1),
     );
 }
 
