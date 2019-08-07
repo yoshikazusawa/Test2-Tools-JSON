@@ -4,7 +4,7 @@
       "Takumi Akiyama <t.akiym@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.1.4, CPAN::Meta::Converter version 2.150010",
+   "generated_by" : "Minilla/v3.1.5, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "perl_5"
    ],
@@ -35,7 +35,7 @@
          "requires" : {
             "Test::CPAN::Meta" : "0",
             "Test::MinimumVersion::Fast" : "0.04",
-            "Test::PAUSE::Permissions" : "0.04",
+            "Test::PAUSE::Permissions" : "0.07",
             "Test::Pod" : "1.41",
             "Test::Spellunker" : "v0.2.7"
          }
@@ -44,7 +44,7 @@
          "requires" : {
             "JSON::MaybeXS" : "0",
             "Test2" : "1.302160",
-            "Test2::Suite" : "0.000077"
+            "Test2::Suite" : "0.000122"
          }
       },
       "test" : {
@@ -65,7 +65,7 @@
          "web" : "https://github.com/akiym/Test2-Tools-JSON"
       }
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_authority" : "cpan:AKIYM",
    "x_serialization_backend" : "JSON::PP version 4.04",
    "x_static_install" : 1
