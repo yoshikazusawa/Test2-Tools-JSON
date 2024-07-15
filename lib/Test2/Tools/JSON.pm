@@ -75,6 +75,8 @@ Verify the value in the C<$got> JSON string has the same data structure as C<$ex
 
     is '{"a":1}', json({a => 1});
 
+    is '{"a":{"b":1},"c":2}', json hash { field a => {b => 1}; etc; };
+
 =item $check = relaxed_json($expected)
 
 Verify the value in the C<$got> relaxed JSON string has the same data structure as C<$expected>.
