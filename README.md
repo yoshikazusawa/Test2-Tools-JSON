@@ -29,6 +29,8 @@ This module was inspired by [Test::Deep::JSON](https://metacpan.org/pod/Test::De
 
         is '{"a":1}', json({a => 1});
 
+        is '{"a":{"b":1},"c":2}', json hash { field a => {b => 1}; etc; };
+
 - $check = relaxed\_json($expected)
 
     Verify the value in the `$got` relaxed JSON string has the same data structure as `$expected`.
